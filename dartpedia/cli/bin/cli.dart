@@ -1,13 +1,23 @@
-import 'dart:io';
-import 'package:http/http.dart' as http;
+// import 'dart:io';
+// import 'package:http/http.dart' as http;
+// import 'package:command_runner/command_runner.dart';
+
+// // const version = '0.0.1';
+
+// void main(List<String> arguments) async{ //main doesn't need to be async, but it allows us to use await inside it
+//   var runner = CommandRunner();
+//   await runner.run(arguments);
+// }
+
 import 'package:command_runner/command_runner.dart';
 
 const version = '0.0.1';
 
-void main(List<String> arguments) async{ //main doesn't need to be async, but it allows us to use await inside it
-  var runner = CommandRunner();
-  await runner.run(arguments);
+void main(List<String> arguments) {
+  var commandRunner = CommandRunner()..addCommand(HelpCommand());
+  commandRunner.run(arguments);
 }
+
 
 // void main(List<String> arguments) {
 //   if (arguments.isEmpty || arguments.first == 'help') {
