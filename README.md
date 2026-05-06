@@ -8,7 +8,7 @@ This repository documents my journey of learning Flutter and Dart from scratch. 
 ## Resources
 - [Flutter Official Documentation](https://docs.flutter.dev/learn/pathway)
 
-## 🗺️ Learning Phases
+## Learning Phases
 
 ### Phase 1: Environment Setup
 - [✓] Installed and configured the Flutter SDK.
