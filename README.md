@@ -44,6 +44,15 @@ flutter pub get
 flutter run
 ```
 
+#### Birdle (flutter)
+Building a game similar to Wordle
+- Created Flutter project 
+```bash
+flutter create birdle --empty
+```
+- Explored the widget tree
+- Learnt about stateful hot reload
+
 ---
 Bhrigu KD
 
