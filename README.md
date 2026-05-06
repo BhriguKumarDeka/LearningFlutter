@@ -52,6 +52,9 @@ flutter create birdle --empty
 ```
 - Explored the widget tree
 - Learnt about stateful hot reload
+- Built a custom StatelessWidget
+- Made widgets reusable with constructor parameters
+- Styled widgets using Container & BoxDecoration
 
 ---
 Bhrigu KD
